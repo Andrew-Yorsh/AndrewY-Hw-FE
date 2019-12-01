@@ -1,0 +1,46 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+    
+    
+    
+}
+
+.alldocument {
+    width: 210mm;
+    height: 297mm;
+    border-style: dotted;
+    border-color: black;
+}
+
+.verytop {
+    text-align: center;
+    font-weight: 800;
+}
+
+.themenomber {
+    text-align: center;
+}
+
+.forprint {
+    margin-left: 15mm;
+    margin-top: 21mm;
+    margin-bottom: 40mm;
+}
+
+.overauthor {
+    text-align: left;
+}
+
+.author {
+    text-align: left;
+    margin-left: 87mm;
+}
+
+.authorstring {
+    margin: 1;
+}
+
+.minsk {
+    text-align: center;
+}
