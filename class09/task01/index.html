@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="background-color: aqua;">
+<body>
     <h1 style="text-align: center; color: red;">АМАЗОН</h1>
     <div class="menu">
         <div class="menuelement ">Бытовая техника
@@ -26,7 +26,7 @@
 
         <div class="menuelement">Техника для кухни
             <ul class="submenu">
-                <li class="element"><a href="">Холодильники  </a> </li>
+                <li class="element"><a href="#openmodal"> Холодильники  </a> </li>
                 <li class="element"><a href=""> Кухонныеплиты </a> </li>
                 <li class="element"><a href=""> Морозильники </a> </li>
                 <li class="element"><a href=""> Настольныеплиты </a> </li>
@@ -49,8 +49,9 @@
     </div>
 
 
-
-<div class="ordercard">
+<div id="openmodal" class="ordercard">
+    <div>
+            <a href="#close" title="Закрыть" class="close">X</a>
         <h3> Заказ товара</h3>
         <hr>
         <form action="" method="get">
@@ -80,6 +81,8 @@
             <input type="submit" value="Подтвердить заказ">
         </form>
     </div>
+</div>
+
 </body>
 
 </html>

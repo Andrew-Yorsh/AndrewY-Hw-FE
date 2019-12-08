@@ -25,20 +25,20 @@ list-style-type:none;
 .ordercard{
     min-width: 500px;
     min-height: 400px;
-    display: none;
+    display:none;
     position: fixed;
-
+z-index: 100;
     top: 40%;
-    left: 40%;
-    
-    border: 1px solid darkblue;
-    background: darkorange;
+    left: 40%; 
 }
-.element:active .ordercard
+
+.ordercard:target 
 {
-    display:inline;
+    display:block;
+    background-color: aqua;
 }
 .element:hover
 {
     background-color: darkorchid;
 }
+
