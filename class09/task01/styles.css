@@ -1,0 +1,44 @@
+.menu{}
+
+
+.menuelement{
+    width: 400px;
+    min-height: 100;
+    border: 1px solid #741414;
+    float: left;
+font-size: 28px;
+text-align: center;
+}
+.clear { clear: both }
+
+.submenu
+{display: none ;
+width: 600;
+list-style-type:none;
+}
+
+.menuelement:hover .submenu
+{
+    display: inline ;
+}
+
+.ordercard{
+    min-width: 500px;
+    min-height: 400px;
+    display: none;
+    position: fixed;
+
+    top: 40%;
+    left: 40%;
+    
+    border: 1px solid darkblue;
+    background: darkorange;
+}
+.element:active .ordercard
+{
+    display:inline;
+}
+.element:hover
+{
+    background-color: darkorchid;
+}
